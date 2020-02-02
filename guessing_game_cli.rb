@@ -5,5 +5,5 @@ def run_guessing_game
   binding.pry
   puts "Guess a number between 1 and 6"
   userguess = gets.chomp
-  puts userguess == magicnumber ? "You guessed the correct number" : userguess == "exit" ? "Goodbye!" : "Sorry! Th computer guessed #{magicnumber}"
+  puts userguess == magicnumber ? "You guessed the correct number!" : userguess == "exit" ? "Goodbye!" : "Sorry! Th computer guessed #{magicnumber}"
 end
